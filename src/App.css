@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    cursor: none; 
+}
+
+body::before {
+    content: url('https://i.ibb.co/wr01yXs/cursor.png'); /* Replace with the path to your cursor image */
+    position: fixed;
+    width: 30px; /* Adjust the width of your cursor */
+    height: 30px; /* Adjust the height of your cursor */
+    pointer-events: none; /* Ensure the cursor doesn't interfere with clicks */
+    animation: pulse 1s infinite alternate; /* Add a pulsating animation */
+    transition: transform 0.2s ease-in-out; /* Add a smooth transition on hover */
+}

@@ -1,0 +1,118 @@
+main{
+    width: 1240px;
+    height: 100vh;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.main-div-Game{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-main-div span{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.sec-main-div p{
+    font-size: 30px;
+    font-weight: 700;
+    gap: 24px;
+}
+.btn-div p{
+    text-align: end;
+    font-weight: 600;
+}
+
+.btn-div button{
+    all: unset;
+    width: 90px;
+    height: 90px;
+    border: 2px solid black;
+    border-radius: 6px;
+    border-style: double;
+    text-align: center;
+    margin: 10px;
+    
+    
+   
+}
+
+.btn-div button.selected {
+    background-color: black;
+    color: white;
+  }
+  
+.btn-div button:hover,
+.btn-div button:active,
+.btn-div button:focus
+ 
+{
+    background-color: black;
+    color: white;
+}
+
+.game-sec-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.game-sec-div p{
+    font-weight: 700;
+    font-size: large;
+}
+.dice-div img{
+    margin-top: 30%;
+    width: 280px;
+    height: 280px;
+    margin-bottom:-20px ;
+}
+
+.dice-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+#first-btn{
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: transparent;
+    font-weight: 700;
+}
+#first-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+#sec-btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: black;
+    font-weight: 700;
+    color: white;
+    border: 1px solid black;
+}
+
+#sec-btn:hover{
+    background-color: transparent;
+    color: black;
+}
+
+
